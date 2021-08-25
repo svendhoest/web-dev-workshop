@@ -5,19 +5,25 @@ Please refer to the [setup](./SETUP.md) section.
 # Assignment
 
 ## HTML assignment
-* create a blog homepage
-* should contain:
-  * a list of blog posts
-  * a headline
-  * a footer
-  * a navigation with navigation items to fictive sections of the blog
-  * 
+The goal of this HTML assignment is the creation of ficitive blog homepage. Use the existing HTML document, remove everything you don't need and start from there.
 
-* remember the semantic elements HTML provides and use them 
-* you should not style / format the stuff
+You don't have to implement any page other than the blog start page.
+
+The blog homepage should contain the following items:
+  * A list of blog post teasers  
+    Be creative and just invent a couple of topics or use lorem ipsum
+  * Each teaser should consist of an image, a title, a short description and a link to a detail page (you don't have to implement a detail page!)
+  * The blog hompage needs a catchy headline
+  * The blog homepage should have a footer that holds meta information for the blog
+  * Add a navigation with navigation items that lead to other fictitious sections of the blog (don't build those pages)
+
+Always keep the semantics of your homepage in mind!
+HTML provides a lot of building blocks that you can use to properly define the elements of your website.
+
+_Formatting and styling is not part of this assignment! Only concentrate on the pure HTML based document structure._
 
 ## CSS assignment
-* introduce a sidebar with some (fictive) blog related content
+* Introduce a sidebar with some (fictitious) blog related content
 * the sidebar should be positioned on the side of the list of blog posts
 
 ## JS assignment
