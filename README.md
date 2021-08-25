@@ -23,8 +23,15 @@ HTML provides a lot of building blocks that you can use to properly define the e
 _Formatting and styling is not part of this assignment! Only concentrate on the pure HTML based document structure._
 
 ## CSS assignment
-* Introduce a sidebar with some (fictitious) blog related content
-* the sidebar should be positioned on the side of the list of blog posts
+
+* Use CSS to style the blog homepage that you have created in the previous assignment.    
+  Set `color`s, `font-size`s and `font-family`s to your liking and assign proper spacings to adjacent elements using `padding`s and `margin`s. Utilize `border`s to and `background-color`s to offset elements from each other.     
+  There are also a couple of interesting CSS features like `box-shadow`, `border-radius`, `text-shadow`, `border-image`, why not try some of these?
+
+* Introduce a sidebar with some (fictitious) blog related content, for example the latest comments, most important tags for the blog, most read blog posts and so on
+* The sidebar should be positioned on the side of the list of blog posts
+
+<img src="./media/sketch_web.svg">
 
 ## JS assignment
 * create a function that calculates the elapsed time since the site has been opened
