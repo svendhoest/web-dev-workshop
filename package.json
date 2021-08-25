@@ -1,0 +1,18 @@
+{
+  "name": "assignment-web-introduction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@scm.methodpark.de:29419/hands-on-workshops/react-workshop/assignment-web-introduction.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "snowpack": "^3.8.6"
+  }
+}
