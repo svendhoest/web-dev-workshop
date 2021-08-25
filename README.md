@@ -35,9 +35,17 @@ This sketch represents a possible structure of how your blog home page might loo
 <img src="./media/sketch_web.svg">
 
 ## JS assignment
-* create a function that calculates the elapsed time since the site has been opened
-* present the elapsed time in the header of your site
-* format it in a human readable form (e.g. 1min 20s)
+
+Create a class that handles time keeping in general.    
+After instantiation it should be able to calculate the elapsed time since then.
+(Hint: The function `Date.now()` provides you with the elapsed time in milliseconds since the beginning of the UNIX epoch.)
+
+Create a instance of this class whenever your blog homepage loads.
+Periodially (every 1s) query your class instance for the elapsed time and print this elapsed time into the header of the blog homepage.
+
+(Hint: you can use `setInterval` to periodically execute a piece of code)
+
+Format the elapsed time in readable form (e.g. 1min 20s).
 
 ## TS assignment
 * convert your code over to typescript
