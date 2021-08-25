@@ -31,6 +31,7 @@ _Formatting and styling is not part of this assignment! Only concentrate on the 
 * Introduce a sidebar with some (fictitious) blog related content, for example the latest comments, most important tags for the blog, most read blog posts and so on
 * The sidebar should be positioned on the side of the list of blog posts
 
+This sketch represents a possible structure of how your blog home page might look like. This is not a specification but merely a mental model to help you getting a better feel for a possible setup.
 <img src="./media/sketch_web.svg">
 
 ## JS assignment
