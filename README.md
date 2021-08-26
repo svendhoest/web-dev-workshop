@@ -4,7 +4,7 @@ Please refer to the [setup](./SETUP.md) section.
 
 # Assignment
 
-## HTML assignment
+## HTML Assignment
 The goal of this HTML assignment is the creation of ficitive blog homepage. Use the existing HTML document, remove everything you don't need and start from there.
 
 You don't have to implement any page other than the blog start page.
@@ -24,7 +24,7 @@ HTML provides a lot of building blocks that you can use to properly define the e
 
 _Formatting and styling is not part of this assignment! Only concentrate on the pure HTML based document structure._
 
-## CSS assignment
+## CSS Assignment
 
 * Use CSS to style the blog homepage that you have created in the previous assignment.    
   Set `color`s, `font-size`s and `font-family`s to your liking and assign proper spacings to adjacent elements using `padding`s and `margin`s. Utilize `border`s to and `background-color`s to offset elements from each other.     
@@ -36,22 +36,27 @@ _Formatting and styling is not part of this assignment! Only concentrate on the 
 This sketch represents a possible structure of how your blog home page might look like. This is not a specification but merely a mental model to help you getting a better feel for a possible setup.
 <img src="./media/sketch_web.svg">
 
-## JS assignment
+## JavaScript & TypeScript Assignment
 
 Create a class that handles time keeping in general.    
 After instantiation it should be able to calculate the elapsed time since then.
 (Hint: The function `Date.now()` provides you with the elapsed time in milliseconds since the beginning of the UNIX epoch.)
 
+The class should implement the `Timekeeper` interface:
+
+```ts
+type timekeeperCallback = (elapsedTime: number) => void
+
+interface Timekeeper {
+    registerCallback: (callback: timekeeperCallback) => Timekeeper
+    reset: () => void
+}
+```
+
+Via the `registerCallback` method the Timekeeper instance should provide the possibility to register a callback. That callback should be called every second, transporting the elapsed time since the site has been opened.
 Create a instance of this class whenever your blog homepage loads.
-Periodially (every 1s) query your class instance for the elapsed time and print this elapsed time into the header of the blog homepage.
+Register a handler that prints the elapsed time into the header of the blog homepage.
 
 (Hint: you can use `setInterval` to periodically execute a piece of code)
 
 Format the elapsed time in readable form (e.g. 1min 20s).
-
-## TS assignment
-* convert your code over to typescript
-
-## Bonus assignment
-* install the package `hirestime` from npm (it supports typescript!) 
-* use the installed module to calculate the elapsed time on the site
