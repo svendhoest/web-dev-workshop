@@ -17,6 +17,8 @@ The blog homepage should contain the following items:
   * The blog homepage should have a footer that holds meta information for the blog
   * Add a navigation with navigation items that lead to other fictitious sections of the blog (don't build those pages)
 
+For sample images you can use a service like placeholder.com (<https://via.placeholder.com/150/000000/ff0000/?text=hepp>).
+
 Always keep the semantics of your homepage in mind!
 HTML provides a lot of building blocks that you can use to properly define the elements of your website.
 
@@ -50,6 +52,6 @@ Format the elapsed time in readable form (e.g. 1min 20s).
 ## TS assignment
 * convert your code over to typescript
 
-## ECO system assignment
+## Bonus assignment
 * install the package `hirestime` from npm (it supports typescript!) 
 * use the installed module to calculate the elapsed time on the site
