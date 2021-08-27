@@ -29,7 +29,7 @@ For sample images you can use what ever images you like (they are best placed
 in the `/media` folder) or use a service like <https://placeholder.com>:
 
 ```html
-<img src="https://via.placeholder.com/150/fff/000/?text=sample+image">
+<img src="https://via.placeholder.com/150/f00/000/?text=sample+image">
 ```
 
 ![sample image](https://via.placeholder.com/150/f00/000/?text=sample+image)
@@ -61,9 +61,10 @@ You can use fictitious texts and placeholder images here.
 
 * Introduce a sidebar with some (fictitious) blog related content, for example
   the latest comments, most important tags for the blog, most read blog posts
-  and so on.
+  and so on.  
+  The sidebar should be positioned on the side of the list of blog posts.
 
-* The sidebar should be positioned on the side of the list of blog posts
+* Highlight the current page in the navigation.  
 
 CSS styles can be placed in the existing file (`/style/style.css`). It is already
 referenced in the main HTML file and contains some CSS rules, feel free to remove
