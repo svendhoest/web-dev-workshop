@@ -45,7 +45,7 @@ pure HTML based document structure._
 
 #### __Bonus Assignment (if there's still time)__
 
-Build the sites you have referenced in the list of blog teasers and in the
+Build the pages you have referenced in the list of blog teasers and in the
 navigation!  
 You can use fictitious texts and placeholder images here.
 
@@ -106,7 +106,7 @@ In the folder `/script` you'll find the file `index.js`. It is directly referenc
 by the main HTML file and gets executed whenever the page loads. Use this as the
 starting point for your application. From there you can reference any other module
 you create.  
-Your additional class is best placed in a separate File, for example `Timekeeper.ts`.
+Your additional class is best placed in a separate file, for example `Timekeeper.ts`.
 
 #### __Bonus Assignment (if there's still time)__
 
