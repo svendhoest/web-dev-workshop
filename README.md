@@ -80,5 +80,5 @@ _(Hint: you can use `setInterval` to periodically execute a piece of code.)_
 
 Format the elapsed time in readable form (e.g. 1min 20s).
 
-__Bonus Assignment (if there's still time):__
+__Bonus Assignment (if there's still time):__  
 Add a reset button that resets elapsed time (using the `reset` method from the `Timekeeper` interface).
