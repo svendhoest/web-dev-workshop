@@ -19,7 +19,7 @@ The blog homepage should contain the following items:
 * Each teaser should consist of an image, a title, a short description and a link to a detail page (you don't have to implement a detail page!).
 * The blog hompage needs a catchy headline.
 * Add a navigation with navigation items that lead to other fictitious sections of the blog (don't build those pages).
-* The blog homepage should have a footer that holds meta information for the blog
+* The blog homepage should have a footer that holds meta information for the blog.
 
 For sample images you can use a service like placeholder.com:  
 
@@ -48,6 +48,10 @@ _Formatting and styling is not part of this assignment! Only concentrate on the 
 
 This sketch represents a possible structure of how your blog home page might look like. This is not a specification but merely a mental model to help you getting a better feel for a possible setup.
 ![sketch](./media/sketch_web.svg)
+
+__Bonus Assignment (if there's still time):__  
+Create a floating notification that greets the visitor of your site:
+![sketch](./media/sketch_web_overlay.svg)
 
 ### JavaScript & TypeScript Assignment
 
