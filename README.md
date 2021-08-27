@@ -18,7 +18,7 @@ The blog homepage should contain the following items:
   Be creative and just invent a couple of topics or use lorem ipsum.
 * Each teaser should consist of an image, a title, a short description and a
   link to the respective detail page. (For now don't build those additional
-  pages only if there's time left)
+  pages, only if there's time left)
 * The blog homepage needs a catchy headline.
 * Add a navigation with navigation items that lead to other fictitious sections
   of the blog. (Don't build those pages for now.)
