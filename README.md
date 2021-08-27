@@ -53,7 +53,8 @@ This sketch represents a possible structure of how your blog home page might loo
 
 Create a class that handles time keeping in general.  
 After instantiation it should be able to calculate the elapsed time since then.
-(Hint: The function `Date.now()` provides you with the elapsed time in milliseconds since the beginning of the UNIX epoch.)
+
+_(Hint: The function `Date.now()` provides you with the elapsed time in milliseconds since the beginning of the UNIX epoch.)_
 
 The class should implement the `Timekeeper` interface:
 
@@ -67,9 +68,10 @@ interface Timekeeper {
 ```
 
 Via the `registerCallback` method the Timekeeper instance should provide the possibility to register a callback. That callback should be called every second, transporting the elapsed time since the site has been opened.
+
 Create a instance of this class whenever your blog homepage loads.
 Register a handler that prints the elapsed time into the header of the blog homepage.
 
-(Hint: you can use `setInterval` to periodically execute a piece of code)
+_(Hint: you can use `setInterval` to periodically execute a piece of code.)_
 
 Format the elapsed time in readable form (e.g. 1min 20s).
