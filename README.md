@@ -24,10 +24,10 @@ The blog homepage should contain the following items:
 For sample images you can use a service like placeholder.com:  
 
 ```html
-<img src="https://via.placeholder.com/150/fff/000/?text=sample%20image">
+<img src="https://via.placeholder.com/150/fff/000/?text=sample+image">
 ```
 
-![sample image](https://via.placeholder.com/150/fff/000/?text=sample%20image)
+![sample image](https://via.placeholder.com/150/f00/000/?text=sample+image)
 
 Sample texts can be created via <https://loremipsum.de/>.
 
