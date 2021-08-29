@@ -74,6 +74,9 @@ This sketch represents a possible structure of how your blog home page might
 look like. This is not a specification but merely a mental model to help you
 getting a better feel for a possible setup. ![sketch](./media/sketch_web.svg)
 
+_Hint: Be aware that the HTML structure you have created in the previous
+assignment might no longer fit your desired design, adjust accordingly!_
+
 ### JavaScript & TypeScript
 
 Create a class that keeps track of the elapsed time.  
