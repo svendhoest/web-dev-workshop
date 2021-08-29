@@ -104,8 +104,6 @@ handler that prints the elapsed time into the header of the blog homepage.
 
 _Hint: you can use `setInterval` to periodically execute a piece of code._
 
-Format the elapsed time in readable form (e.g. 1min 20s).
-
 In the folder `/script` you'll find the file `index.js`. It is directly referenced
 by the main HTML file and gets executed whenever the page loads. Use this as the
 starting point for your application. From there you can reference any other module
@@ -114,5 +112,7 @@ Your additional class is best placed in a separate file, for example `Timekeeper
 
 #### __Bonus Assignment (if there's still time)__
 
-Add a reset button that resets the elapsed time (using the `reset` method from the
-`Timekeeper` interface).
+* Format the elapsed time in readable form (e.g. 1min 20s).
+
+* Add a reset button that resets the elapsed time (using the `reset` method from the
+  `Timekeeper` interface).
