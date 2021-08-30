@@ -116,3 +116,8 @@ Your additional class is best placed in a separate file, for example `Timekeeper
 
 * Add a reset button that resets the elapsed time (using the `reset` method from the
   `Timekeeper` interface).
+
+* Install an external dependency from npm that takes care of the time formatting
+  for you. We recommend [date-fns](https://www.npmjs.com/package/date-fns), but that's
+  up to you.  
+  _Hint: Use `npm install *your-dependency*` to add additional dependencies._
