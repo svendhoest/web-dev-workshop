@@ -1,4 +1,7 @@
 import { sum } from './lib/math';
+import MyTimeKeeper from './timer';
+import { format } from 'date-fns';
+
 
 console.log(`
               _                          _
@@ -8,6 +11,16 @@ __      _____| | ___ ___  _ __ ___   ___| |
   \\_/\\_/ \\___|_|\\___\\___/|_| |_| |_|\\___(_)
 
 `);
+
+const timeKeeper = new MyTimeKeeper();
+
+function timeSpentDomWriter(elapsedTime){
+  const outer = document.querySelector(".timer");
+  outer.textContent = format(elapsedTime, "HH:mm:ss");
+}
+
+timeKeeper.registerCallback(timeSpentDomWriter);
+
 
 const number1 = 42;
 const number2 = 1337;

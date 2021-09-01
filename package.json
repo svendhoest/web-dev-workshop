@@ -15,5 +15,8 @@
   "license": "ISC",
   "devDependencies": {
     "snowpack": "^3.8.6"
+  },
+  "dependencies": {
+    "date-fns": "^2.23.0"
   }
 }

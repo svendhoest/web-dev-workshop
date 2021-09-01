@@ -23,3 +23,27 @@ h1 div {
     font-weight: 100;
     border-bottom: 1px solid green;
 }
+
+article h3 {
+    color: red;
+    font-size: 20px;
+    white-space: nowrap;
+
+}
+
+article {
+    display: flex;
+    color :blue;
+    font-size: 16px;
+    max-height: 160px;
+}
+
+article img {
+    height: 160px;
+    width: 160px;
+    padding: 20px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
